@@ -1,0 +1,96 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}/*
+/* .container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+} */
+ .container{
+    width: 90%;
+    margin: 5%;
+ }
+ .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.w-100{
+    width: 95%;
+}
+.w-25{
+    width: 24%;
+}
+.mx-10{
+    margin: 0 10px;
+}
+.text-center{
+    text-align: center;
+}
+.container .card .car-id{
+    text-align: justify;
+}
+.container .card .header{
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.container .card{
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: grey;
+}
+.container .card ul{
+    display: block;
+    list-style-type: none;
+}
+.container .card button{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+/* #hero div{
+    width: 30%;
+    padding: 3%;
+    background-color: white;
+    border: 2px solid rgb(112, 9, 160);
+    border-radius: 5px;
+    margin-top: 2%;
+}
+#hero div .rate{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding:  10px;
+
+}
+#hero div .info{
+    border: none;
+    width: 60%;
+    display: block;
+}
+#hero div .info h2{
+    display: flex;
+    background-color: aqua
+    
+}
+/* #hero div .info p{
+    display: flex;
+} */
+/* #hero div .img{
+    display: ;
+}  */
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+} 
