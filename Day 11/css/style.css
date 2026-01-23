@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul { list-style-type: none;}
+ul li:hover i{ color: #000000;}
+.icons li:hover i{ color: #CA4445;}
+.sec1 .nav2 .navbar .collapse .navbar-nav .nav-item .active{ color: #CA4445!important; }
+.sec1 .nav2 div .call { 
+    background-color: #EFE6E1!important; 
+    width: 10%;
+    aspect-ratio: 1/1;
+
+}
+/* .sec1 .nav2 .navbar .collapse .icons{ margin-left: !important; } */
