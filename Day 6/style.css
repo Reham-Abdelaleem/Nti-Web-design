@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+.w-35{
+    width: 35%;
+}
+/* .w-60{
+    width: 60%;
+}
+.w-10{
+    width: 10%;
+} */
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.w-30{
+    width: 30%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.py-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav .active{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.text-dark{
+    color: black;
+}
+.text-light{ color: #2F2E2E;}
+nav ul{
+    width: 50%;
+}
+.just-between{
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav a{
+    color: #2F2E2E;
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+} */
+
+
+#hero{
+    background-image: url("images/pexels-expect-best-323780\ 1.png");
+    background-repeat: no-repeat;
+    padding: 10%;
+    background-position: right;
+    background-size: 80%;
+}
+#hero div{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5%;
+}
+.sec2{
+    width: 100%;
+    background-color: rgba(37, 77, 77, 0.2);
+    text-align: center;
+
+}
+.sec2 h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #2F2E2E;
+}
+.sec2 .content{
+    width: 100%;
+    text-align: center;    
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+.sec2 .content div{
+    padding: 10px 25px ;
+}
+.sec2 .content h3,.sec2 .content p{
+    font-size:25px ;
+}
+.sec2 i{
+    background-color: rgba(37, 77, 77, 1);
+    color: #FFFFFF;
+    width: 25%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    
+}
+.py-15{ padding: 7%;}
+.sec3 img{
+    /* background-image: url("images/pexels-anete-lusina-4792491\ 1.png");
+    background-repeat: no-repeat;
+    padding: 10%;
+    background-position: left;
+    background-size: 80%; */
+    padding: 5% 2% 5% 5%;
+    width: 55%;
+    
+}
+.sec3 .content{
+    width: 40%;
+    font-size: 35px;
+    padding: 0 5% ;
+    margin-right: 5%;
+    color: #2F2E2E;
+}
+.sec3 .content a{
+    color: #2F2E2E;
+}

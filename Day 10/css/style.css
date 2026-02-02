@@ -1,0 +1,13 @@
+/* .carousel-item{ 
+    height: 32rem;
+}
+.carousel-indicators button{ left: 0;} */
+.container-fluid { 
+    background: url("../images/Image\ Placeholder.png") center /cover no-repeat;
+}
+.container div .btn-1 { 
+    background-color: #2DA884;
+}
+.container div .btn-2 a{ 
+    color: #2DA884;
+}

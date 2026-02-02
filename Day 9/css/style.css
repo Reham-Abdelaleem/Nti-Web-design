@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.container-full{
+    width:100%;
+    overflow-x: hidden ;
+}
+.container{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.d-flex{ display: flex;}
+ul{ list-style-type: none;}
+.sec1{ margin-top: 2%;}
+.w-10{ width: 10%;}
+.w-40{ width: 40%;}
+.w-50{ width: 50%;}
+
+.options{ 
+    align-items: center;
+    justify-content: space-between;
+}
+.options , .content{ 
+    flex-direction: column;
+    
+}
+.sec1 ul li{
+    width: fit-content;
+    height: fit-content;
+}
+.sec1 ul li:hover{
+    border: 1px solid #00B207;
+    border-radius: 5px;
+}
+.sec1 .w-40{ align-content: center;}
+.sec1 .content .data { width: 60%;}
+.sec1 .content .data .header{ 
+    justify-content: space-between;
+    width: 100%;
+    /* margin-bottom: 1%; */
+}
+.sec1 .content .data .header h2{ 
+    width: fit-content;
+    margin-right: 5%;
+}
+.sec1 .content .data .header div{ 
+    color: #2C742F;
+    background-color: #20B52633;
+    border-radius: 5px;
+    padding: 2%;
+    align-content: center;
+    width: fit-content;
+}
+.text-mute{ color: #666666;}
+/* .text-center{ text-align: center;} */
+
+.sec1 .content .rating{ 
+   width: 75%;
+}
+.sec1 .content .price {
+    margin: 2% 0;
+    vertical-align: middle;
+}
+.sec1 .content .price p{
+    font-weight: 500;
+    color: #2C742F;
+    font-size: 16px;
+    align-content: center;
+}
+.sec1 .content .price del{
+    font-weight: 400;
+    color: #B3B3B3;
+    font-size: 14px;
+    /* padding-right: 0.5%; */
+}
+.sec1 .content .price .discount{
+    font-weight: 500;
+    color: #EA4B48;
+    background-color: #EA4B481A;
+    font-size: 14px;
+    padding: 1%;
+    margin-left: 1%;
+    border-radius: 5px;
+}
